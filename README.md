@@ -173,11 +173,23 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
+```
+NAME : CHARUMATHI R
+REF NO : 212222240021
+```
+```C
 
 
-
+```
 
 ## Output screen shots of proteus  :
+ BEFORE:
+![Screenshot (159)](https://github.com/charumathiramesh/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/120204455/02c5b8c5-1092-43a7-94f5-ab8d68fb1cb9)
+
+
+ AFTER:
+![Screenshot (158)](https://github.com/charumathiramesh/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/120204455/e6ac9eaf-f0a3-4ec3-a2e4-7e77fd6863f3)
+
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
