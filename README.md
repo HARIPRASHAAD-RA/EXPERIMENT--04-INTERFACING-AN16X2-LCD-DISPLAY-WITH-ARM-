@@ -178,7 +178,17 @@ NAME : CHARUMATHI R
 REF NO : 212222240021
 ```
 ```C
-
+#include "main.h"
+  #include "lcd.h"
+  MX_GPIO_Init();
+  Lcd_PortType ports[] = {GPIOA,GPIOA,GPIOA,GPIOA};
+  Lcd_PinType pins[]={GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
+  Lcd_HandleTypeDef lcd;
+  lcd = Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
+  Lcd_cursor(&lcd, 0,0);
+  Lcd_string(&lcd,"AIML");
+  Lcd_cursor(&lcd, 1,0);
+  Lcd_string(&lcd,"CHARUMATHI");
 
 ```
 
@@ -193,7 +203,8 @@ REF NO : 212222240021
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![268345572-ed0a8727-2ea0-46dd-b3b9-bb625c07fbd7](https://github.com/charumathiramesh/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/120204455/afba3e85-7a7f-4d9a-be70-a2827c87234e)
+
  
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
