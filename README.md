@@ -182,10 +182,10 @@ void lcd_display()
 	Lcd_HandleTypeDef lcd;
 	lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"H A R I P R A S H A A D\n");
+	Lcd_string(&lcd,"Dept : CSE\n");
 
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223040060\n");
+	Lcd_string(&lcd,"Name : HARIPRASHAAD\n");
 	HAL_Delay(2000);
 }
 int main(void)
@@ -275,7 +275,8 @@ void assert_failed(uint8_t *file, uint32_t line)
  AFTER:
 
 
- 
+ ![WhatsApp Image 2024-10-18 at 11 14 38_07770db2](https://github.com/user-attachments/assets/282ebcae-d3b3-4f9f-b5a8-75ad49a694fd)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
 ![image](https://github.com/user-attachments/assets/5f76f84f-9935-40eb-917a-f77a4f1f2411)
