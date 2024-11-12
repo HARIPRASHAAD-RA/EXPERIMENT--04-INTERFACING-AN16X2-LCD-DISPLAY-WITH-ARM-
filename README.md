@@ -18,6 +18,11 @@ interfaces Datasheet - production data Features
 • Memories – Up to 256 Kbytes of Flash memory – Up to 64 Kbytes of SRAM
 
 
+
+
+    
+
+
    ## LCD 16X2 
    16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like,
    8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
